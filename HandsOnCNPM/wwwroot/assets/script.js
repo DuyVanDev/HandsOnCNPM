@@ -131,10 +131,7 @@ const handleEvent = () => {
     disk.classList.remove("active");
   };
 
-  nextBtn.onclick = () => {
-    nextSong();
-    audio.play();
-  };
+  
 
   prevBtn.onclick = () => {
     prevSong();
